@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Notes By Reex</string>
+    <string name="poster_of_movie">Poster of Movie</string>
+    <string name="top_rated">Top Rated</string>
+    <string name="most_popular">Most Popular</string>
+    <string name="add_note">ADD NOTE</string>
+    <string name="button_start_room">ROOM</string>
+    <string name="toast_enter_name">Enter Note name</string>
+    <string name="hint_note_name">Enter note name</string>
+    <string name="hint_note_text">Enter your note</string>
+    <string name="string_choose_database">Choose Database:</string>
+</resources>
