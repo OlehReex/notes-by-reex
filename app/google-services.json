@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "280055542719",
+    "firebase_url": "https://notes-44c7b-default-rtdb.firebaseio.com",
+    "project_id": "notes-44c7b",
+    "storage_bucket": "notes-44c7b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:280055542719:android:968edf5fded08d0dc9270a",
+        "android_client_info": {
+          "package_name": "com.example.notes.by.reex"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDND3VU8oevby-dunnDUEO7aeIC4UpeowA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

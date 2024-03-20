@@ -38,5 +38,4 @@
         android:layout_margin="@dimen/app_margin"
         android:elevation="@dimen/card_elevation"/>
 
-
 </androidx.constraintlayout.widget.ConstraintLayout>

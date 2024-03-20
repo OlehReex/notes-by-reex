@@ -9,7 +9,7 @@ import com.example.notes.by.reex.R
 import com.example.notes.by.reex.models.AppNote
 
 class MainAdapter: RecyclerView.Adapter<MainAdapter.MainHolder>() {
-    var notesList = emptyList<AppNote>()
+    private var notesList = emptyList<AppNote>()
 
     class MainHolder(view: View): RecyclerView.ViewHolder(view) {
         val noteName: TextView = view.findViewById(R.id.item_note_name)

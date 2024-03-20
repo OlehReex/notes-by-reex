@@ -52,7 +52,6 @@ class NoteFragment : Fragment() {
                 when(menuItem.itemId) {
                     R.id.button_delete -> {
                         viewModel.delete(currentNote) {
-                            println("HERE GOT RESPONSE")
                             GlobalScope.launch(Dispatchers.Main) {
                                 APP_ACTIVITY.navController.navigate(R.id.action_noteFragment_to_mainFragment)
                             }

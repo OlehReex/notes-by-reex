@@ -8,6 +8,7 @@ import com.example.notes.by.reex.models.AppNote
 
 @Database(entities = [AppNote::class], version = 1)
 abstract class AppRoomDatabase: RoomDatabase()  {
+
     abstract fun getAppRoomDao(): AppRoomDao
 
     companion object {

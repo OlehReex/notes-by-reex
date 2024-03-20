@@ -28,7 +28,53 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/start_text" />
 
+    <Button
+        android:id="@+id/button_firebase"
+        android:layout_width="@dimen/start_button_width"
+        android:layout_height="wrap_content"
+        android:text="@string/string_firebase_button"
+        android:layout_margin="@dimen/app_margin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_room" />
 
+    <EditText
+        android:id="@+id/input_email"
+        android:visibility="invisible"
+        android:layout_width="@dimen/start_button_width"
+        android:layout_height="wrap_content"
+        android:hint="@string/string_email_hint"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_firebase"
+        style="@style/edit_text"
+        android:autofillHints=""/>
 
+    <EditText
+        android:id="@+id/input_password"
+        android:visibility="invisible"
+        android:layout_width="@dimen/start_button_width"
+        android:layout_height="wrap_content"
+        android:hint="@string/string_password_hint"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/input_email"
+        style="@style/edit_text"
+        android:autofillHints=""
+        tools:ignore="TextFields" />
+
+    <Button
+        android:id="@+id/button_login"
+        android:visibility="invisible"
+        android:layout_width="@dimen/start_button_width"
+        android:layout_height="wrap_content"
+        android:text="@string/string_login_button"
+        android:layout_margin="@dimen/app_margin"
+        android:background="@color/colorGraphite"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/input_password"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

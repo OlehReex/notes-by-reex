@@ -14,5 +14,7 @@ data class AppNote(
     val name: String = "",
 
     @ColumnInfo
-    val text: String = ""
+    val text: String = "",
+
+    val idFirebase: String = ""
 ): Serializable

@@ -6,4 +6,8 @@ import com.example.notes.by.reex.utils.REPOSITORY
 
 class MainViewModel(application: Application) : AndroidViewModel(application) {
     val allNotes = REPOSITORY.allNotes
+
+    fun signOut() {
+        REPOSITORY.onSingOut()
+    }
 }

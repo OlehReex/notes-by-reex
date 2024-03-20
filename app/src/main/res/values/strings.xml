@@ -10,4 +10,9 @@
     <string name="hint_note_name">Enter note name</string>
     <string name="hint_note_text">Enter your note</string>
     <string name="string_choose_database">Choose Database:</string>
+    <string name="string_firebase_button">FIREBASE</string>
+    <string name="string_email_hint">email</string>
+    <string name="string_password_hint">password</string>
+    <string name="string_login_button">LOGIN</string>
+    <string name="toast_enter_password_and_email">Enter email and password</string>
 </resources>
